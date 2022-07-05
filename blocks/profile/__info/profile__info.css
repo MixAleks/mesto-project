@@ -1,0 +1,23 @@
+.profile__info {
+    display: grid;
+    grid-template-areas:
+    "title edit-button"
+    "text text";
+    gap: 6px 18px;
+}
+
+@media screen and (max-width: 767px) {
+    .profile__info  {
+        max-width: 282px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .profile__info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 6px 10px;
+    }
+}

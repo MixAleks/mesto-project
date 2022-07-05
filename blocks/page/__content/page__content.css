@@ -1,0 +1,24 @@
+.page__content {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 880px;
+}
+
+@media screen and (max-width: 980px) {
+    .page__content {
+        width: calc(100% - 100px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .page__content {
+        width: calc(100% - 38px);
+    }
+}
+
+@media screen and (max-width: 358px) {
+    .page__content  {
+        width: calc(100%);
+        padding: 0 19px;
+    }
+}
